@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import Down.libcmark
 
 public class BaseNode: Node {
 
