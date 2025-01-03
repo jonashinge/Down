@@ -1,0 +1,18 @@
+//
+//  Down.modulemap
+//  Down
+//
+//  Created by Jonas Hinge on 03/01/2025.
+//  Copyright © 2025 Down. All rights reserved.
+//
+
+framework module Down {
+    umbrella header "Down.h"
+
+    module libcmark [system][extern_c] {
+        header "node.h"
+        export *
+    }
+
+    export *
+}
