@@ -11,6 +11,14 @@ framework module Down {
 
     module libcmark [system][extern_c] {
         header "node.h"
+        header "houdini.h"
+        header "inlines.h"
+        header "iterator.h"
+        header "parser.h"
+        header "references.h"
+        header "render.h"
+        header "scanners.h"
+        header "utf8.h"
         export *
     }
 

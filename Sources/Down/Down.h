@@ -13,12 +13,3 @@ FOUNDATION_EXPORT double DownVersionNumber;
 
 //! Project version string for Down.
 FOUNDATION_EXPORT const unsigned char DownVersionString[];
-
-#import "houdini.h"
-#import "inlines.h"
-#import "iterator.h"
-#import "parser.h"
-#import "references.h"
-#import "render.h"
-#import "scanners.h"
-#import "utf8.h"
